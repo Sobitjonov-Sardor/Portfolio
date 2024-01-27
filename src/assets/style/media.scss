@@ -1,0 +1,162 @@
+@media (max-width: 1070.99px) {
+    .header__content {
+        flex-wrap: wrap;
+        margin-top: 150px;
+    }
+
+    .header__content-info__el {
+        left: -100px;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 765.99px) {
+    .logo {
+        font-size: 26px;
+    }
+
+    .nav__list {
+        gap: 20px;
+    }
+
+    .result__content {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        &__info {
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            border: none;
+        }
+    }
+
+    .header__title {
+        font-size: 33px;
+
+        & span {
+            font-size: 48px;
+        }
+    }
+
+    .skills__content__descr {
+        font-size: 34px;
+
+        & span {
+            font-size: 34px;
+        }
+    }
+
+    .myWorks__content__el1 {
+        right: -40px;
+    }
+
+    .myWorks__content__el2 {
+        left: -20px;
+    }
+
+    .contactUs__content__contacts {
+        &__info {
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
+
+    .myWorks__content__el1,
+    .myWorks__content__el2,
+    .myWorks__content__el3,
+    .skills__content__el2,
+    .skills__content__el1,
+    .header__content-info__el {
+        display: none;
+    }
+}
+
+@media (max-width: 555.99px) {
+    .slider__card {
+        width: 330px;
+    }
+
+    .slider__card__img {
+        width: 100%;
+    }
+
+    .footer__content {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .nav__list {
+        gap: 15px;
+
+        &__link {
+            font-size: 14px;
+        }
+    }
+
+    .myWorks__content__descr {
+        font-size: 30px;
+
+        & span {
+            font-size: 30px;
+        }
+    }
+
+    .contactUs__content__descr {
+        font-size: 30px;
+
+        & span {
+            font-size: 30px;
+        }
+    }
+
+    .contactUs__content__descr2 {
+        font-size: 14px;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .nav__list1 {
+        display: flex;
+    }
+}
+
+@media (max-width: 465.99px) {
+    .header__title {
+        font-size: 23px;
+
+        & span {
+            font-size: 38px;
+        }
+    }
+
+    .header__descr {
+        font-size: 14px;
+    }
+
+    .skills__content__descr {
+        font-size: 24px;
+
+        & span {
+            font-size: 24px;
+        }
+    }
+    .header__content-photo {
+        width: 100%;
+    }
+}
