@@ -187,6 +187,12 @@ export default {
         return {
             cards: [
                 {
+                    name: 'Weather-App',
+                    img: require('../assets/images/Tsx.png'),
+                    link: "https://sobitjonov-sardor.github.io/App/",
+                    descr: 'This is one of my first orders'
+                },
+                {
                     name: 'TSX',
                     img: require('../assets/images/Tsx.png'),
                     link: "https://sobitjonov-sardor.github.io/App/",
